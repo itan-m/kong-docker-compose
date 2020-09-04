@@ -1,5 +1,5 @@
 # kong + konga + docker
-轻松搭建kong环境，并基于postgres做数据持久化
+使用docker-compose轻松搭建kong环境，并基于postgres做数据持久化
 
 ## 注意点
 depends_on是在依赖容器启动后再启动自身容器，而非等待依赖容器启动结束。
