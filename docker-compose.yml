@@ -117,7 +117,7 @@ services:
       NODE_ENV: ${KONGA_NODE_ENV} #development / production
     ports:
       - "1337:1337"
-    restart: on-failure
+    restart: always
     networks:
       - kong-net  
     depends_on:
